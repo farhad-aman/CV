@@ -1,0 +1,385 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+\definecolor{awesome}{HTML}{067A85}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Farhad} \headerlastnamestyle{Aman} \\
+	\vspace{2mm}
+	\textcolor{awesome}{Software Engineer{\enskip\cdotp\enskip}Computer Eng. Student} \\
+	\vspace{2mm}
+	{\faEnvelope\ farhadaman7780@gmail.com} | {\faMobile\ (+98) 904-570-0160} | {\faMapMarker\ Tehran, Iran} \\
+	{\href{https://linkedin.com/in/farhad-aman}{ \faLinkedin\ farhad-aman }} | {\href{https://github.com/farhad-aman}{ \faGithub\ farhad-aman }} | {\href{skype:live:.cid.d5cb3a872b339093?chat}{ \faSkype\ live:.cid.d5cb3a872b339093 }}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Work Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{\textbf{Snapp!}}
+	{Software Engineer}
+	{Tehran, Iran}
+	{Apr 2022 – Current}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://snapp.ir}{\textcolor{awesome}{https://snapp.ir}}}
+		\vspace{1mm}
+		\item I started working in the Traffic team which implemented services such as Snapp’s \textbf{ETA} (Estimated Time of Arrival) and \textbf{Routing}. 
+        \vspace{1mm}
+        \item Worked with \textbf{Apache Spark} and \textbf{Kafka Streams} for many use cases such as aggregating driver locations and street speeds for predicting arrival time. 
+        \vspace{1mm}
+        \item Worked with different message brokers (e.g. \textbf{Apache Kafka} and \textbf{NATS}).
+        \vspace{1mm}
+        \item Worked with \textbf{Prometheus} for event monitoring, alerting, and visualizing them using \textbf{Grafana}.
+		\vspace{1mm}
+	\end{cvitems}}
+    \cventry
+    {\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{University Teaching Assistant}
+	{Tehran, Iran}
+	{Sep 2023 – Feb 2024}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://aut.ac.ir}{\textcolor{awesome}{https://aut.ac.ir}}}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm}}\textbf{Principles and Applications of Artificial Intelligence} teaching assistant under the supervision of Professor Javanmardi
+		\vspace{1mm}
+        \item {\textbf{Skills}: Python, AI Algorithms}
+        \vspace{1mm}
+	\end{cvitems}}
+    \cventry
+    {\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{University Teaching Assistant}
+	{Tehran, Iran}
+	{Sep 2023 – Feb 2024}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://aut.ac.ir}{\textcolor{awesome}{https://aut.ac.ir}}}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm}}\textbf{Algorithm Design} teaching assistant under the supervision of Professor Sajjad Shirali Shahreza
+		\vspace{1mm}
+        \item {\textbf{Skills}: Data Structures, Algorithms, C++}
+        \vspace{1mm}
+	\end{cvitems}}
+	\cventry
+	{\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{University Teaching Assistant}
+	{Tehran, Iran}
+	{Sep 2023 – Feb 2024}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://aut.ac.ir}{\textcolor{awesome}{https://aut.ac.ir}}}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm}}\textbf{Microprocessor and Assembly Language} teaching assistant under the supervision of Professor Hamed Farbeh
+		\vspace{1mm}
+        \item {\textbf{Skills}: ARM, Arduino, C++}
+        \vspace{1mm}
+	\end{cvitems}}
+	\cventry
+	{\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{University Teaching Assistant}
+	{Tehran, Iran}
+	{Feb 2023 – Jul 2023}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://aut.ac.ir}{\textcolor{awesome}{https://aut.ac.ir}}}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm}}\textbf{Operating Systems} teaching assistant under the supervision of Professor Ahmad Javadi
+		\vspace{1mm}
+        \item {\textbf{Skills}: C Programming Language, XV6}
+        \vspace{1mm}
+	\end{cvitems}}
+    \cventry
+    {\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{University Teaching Assistant}
+	{Tehran, Iran}
+	{Feb 2023 – Jul 2023}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://aut.ac.ir}{\textcolor{awesome}{https://aut.ac.ir}}}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm}}\textbf{Algorithm Design} teaching assistant under the supervision of Professor Sajjad Shirali Shahreza
+		\vspace{1mm}
+        \item {\textbf{Skills}: Data Structures, Algorithms, C++}
+        \vspace{1mm}
+	\end{cvitems}}
+    \cventry
+    {\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{University Teaching Assistant}
+	{Tehran, Iran}
+	{Feb 2023 – Jul 2023}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://aut.ac.ir}{\textcolor{awesome}{https://aut.ac.ir}}}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm}}\textbf{Data Structures and Algorithms} teaching assistant under the supervision of Professor Sajjad Shirali Shahreza
+		\vspace{1mm}
+        \item {\textbf{Skills}: Data Structures, Algorithms, C++}
+        \vspace{1mm}
+	\end{cvitems}}
+    \cventry
+    {\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{University Teaching Assistant}
+	{Tehran, Iran}
+	{Sep 2022 – Feb 2023}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://aut.ac.ir}{\textcolor{awesome}{https://aut.ac.ir}}}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm}}\textbf{Advanced Programming} teaching assistant under the supervision of Professor Sahar Roustaei
+		\vspace{1mm}
+        \item {\textbf{Skills}: Java, JavaFX, Design Patterns, Socket Programming}
+        \vspace{1mm}
+	\end{cvitems}}
+    \cventry
+    {\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{University Teaching Assistant}
+	{Tehran, Iran}
+	{Feb 2022 – Jul 2022}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://aut.ac.ir}{\textcolor{awesome}{https://aut.ac.ir}}}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm}}\textbf{Advanced Programming} teaching assistant under the supervision of Professor Hossein Zeinali and Professor Amir Kalbasi
+		\vspace{1mm}
+        \item {\textbf{Skills}: Java, JavaFX, Design Patterns, Socket Programming}
+        \vspace{1mm}
+	\end{cvitems}}
+    \cventry
+    {\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{University Teaching Assistant}
+	{Tehran, Iran}
+	{Sep 2021 – Feb 2022}
+	{\begin{cvitems}
+        \vspace{1mm}
+        \item[] {\hspace{-9mm}\textbf{Website:} \href{https://aut.ac.ir}{\textcolor{awesome}{https://aut.ac.ir}}}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm}}\textbf{Programming Fundamentals} teaching assistant under the supervision of Professor Hossein Zeinali
+		\vspace{1mm}
+        \item {\textbf{Skills}: C Programming Language}
+        \vspace{1mm}
+	\end{cvitems}}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Technical Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		\vspace{0.25mm}Programming Languages:  & {\skill{ Python, Java, C, C++, Go, Scala}} \\
+		\vspace{0.25mm}Database Management:  & {\skill{ SQL,  PostgreSQL, Cassandra, MySQL, KsqlDB, Redis}} \\
+		\vspace{0.25mm}DevOps:  & {\skill{ Git, Docker, Kubernetes, OKD, Helm, ArgoCD, Gitlab CI, Prometheus, Grafana}} \\
+        \vspace{0.25mm}Message Queues:  & {\skill{ Kafka, NATS, Confluent Schema Registry}} \\
+        \vspace{0.25mm}Big Data and Streaming Tools:  & {\skill{ Spark, Kafka Streams, Benthos}} \\
+		\vspace{0.25mm}Software Engineering:  & {\skill{ REST APIs, gRPC, Microservices, Agile and Scrum, Jira, Design Patterns, Unit Tests}} \\
+		\vspace{0.25mm}Programming Expertise:  & {\skill{ Data Structures and Algorithms, Object-oriented Programming}} \\
+		\vspace{0.25mm}Also Familiar with:  & {\skill{ ELK Stack (Elasticsearch, Logstash, and Kibana), RabbitMQ, Swagger, S3, Feast}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{Bachelor\textquotesingle{}s Degree in Computer Engineering}
+	{Tehran, Iran}
+	{Sep 2020 – Current}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Grade: 18.31 (out of 20)}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Important Grades:}
+		\vspace{1mm}
+		  \item {Algorithm Design: 20 (out of 20)}
+        \vspace{1mm}
+        \item {Data Structures and Algorithms: 20 (out of 20)}
+        \vspace{1mm}
+        \item {Operating Systems: 19.69 (out of 20)}
+        \vspace{1mm}
+        \item {Advanced Programming: 20 (out of 20)}
+        \vspace{1mm}
+        \item {Discrete Mathematics: 19.5 (out of 20)}
+        \vspace{1mm}
+        \item {Microprocessor and Assembly Language: 20 (out of 20)}
+        \vspace{1mm}
+        \item {Fundamentals of Computer Programming: 20 (out of 20)}
+        \vspace{1mm}
+        \item {Logic Circuits: 19.9 (out of 20)}
+        \vspace{1mm}
+        \item {Engineering Statistics: 18.35 (out of 20)}
+        \vspace{1mm}
+        \item {Principles of Database Design: 18.25 (out of 20)}
+	\end{cvitems}}
+	\cventry
+	{\textbf{National Organization for Development of Exceptional Talents (Sampad)}}
+	{High School Diploma in Mathematics and Physics}
+	{Mashhad, Iran}
+	{Sep 2014 – Sep 2020}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Final Grade: 19.35 (out of 20)}
+	\end{cvitems}}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Volunteering
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Volunteering}
+\begin{cventries}
+    \cventry
+	{\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{Head of Linux and Open Festival 2024 in Amirkabir University of Technology}
+	{Tehran, Iran}
+	{Feb 2024}
+	{\begin{cvitems}
+		\vspace{1mm}
+        \item[]{Amirkabir's Linux and Open Festival is one of the most prestigious annual and academic events related to Linux, which is held every year at Amirkabir University of Technology. The festival includes several workshops and presentations at beginner to advanced levels with topics related to the open-source Linux operating system. In this festival, a series of presentations and workshops for beginners and professional Linux users will be held on topics such as Linux basics, kernel, security, programming, network, Linux system management, etc.}
+	\end{cvitems}}
+    \cventry
+	{\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{Technical Head of ICPC 2023 in Amirkabir University of Technology}
+	{Tehran, Iran}
+	{Oct 2023}
+	{\begin{cvitems}
+		\vspace{1mm}
+        \item{Responsible for preparing the Judge servers and the participant systems for the contest.}
+        \vspace{1mm}
+        \item{\textbf{Skills: }Docker, Linux, Bash Scripts, DOMjudge}
+	\end{cvitems}}
+    \cventry
+	{\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{Technical Head of Amirkabir Artificial Intelligence Summer Summit 2023}
+	{Tehran, Iran}
+	{Sep 2023}
+	{\begin{cvitems}
+		\vspace{1mm}
+        \item{Responsible for preparing the website of the event.}
+        \vspace{1mm}
+        \item{\textbf{Skills: }Django, Nginx, Docker, Linux, Bash Scripts}
+	\end{cvitems}}
+    \cventry
+	{\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{Technical Staff of ICPC 2022 in Amirkabir University of Technology}
+	{Tehran, Iran}
+	{Apr 2023}
+	{\begin{cvitems}
+		\vspace{1mm}
+        \item{Responsible for preparing the website of the event.}
+        \vspace{1mm}
+		\item{Responsible for preparing the Judge servers and the participant systems for the contest.}
+        \vspace{1mm}
+        \item{\textbf{Skills: }Django, Nginx, Docker, Linux, Bash Scripts, DOMjudge}
+	\end{cvitems}}
+	\cventry
+	{\textbf{Amirkabir University of Technology (Tehran Polytechnic)}}
+	{Author of Advanced Programming Workshop}
+	{Tehran, Iran}
+	{Jul 2021 – Jan 2022}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item{Responsible for preparing the content of the Advanced Programming Workshop.}
+        \vspace{1mm}
+        \item{\textbf{Skills: }Java, JavaFX, Socket Programming}
+	\end{cvitems}}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Java, JavaFX}
+	{JRoyale}
+	{}
+	{\href{https://github.com/farhad-aman/JRoyale}{\faGithub\ farhad-aman/JRoyale}}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item{JRoyale Is A Supercell Clash Royale Clone That Developed In Java Programming Language With JavaFX Framework }
+        \vspace{1mm}
+        \item{\textbf{Challenges: }I have faced challenges such as designing and balancing game mechanics, optimizing performance and memory usage, integrating a MySQL database, creating an intuitive JavaFX-based user interface, adhering to the MVC architecture, managing multi-threading for concurrent tasks, and performing thorough testing and bug fixing. These experiences demonstrate my problem-solving abilities, adaptability, and proficiency in technologies such as Java, JavaFX, MySQL, multi-threading, MVC, and GUI development.}
+	\end{cvitems}}
+	\vspace{0mm}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Languages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Languages}
+\begin{cvitems}
+    \vspace{2mm}
+    \item {\textbf{Persian:} Native}
+    \vspace{1mm}
+    \item {\textbf{English:} Advanced}
+\end{cvitems}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Honors and Awards
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{4mm}
+\cvsection{Honors and Awards}
+\begin{cventries}
+    \vspace{2mm}
+	\cventry
+	{\textbf{National Organization of Educational Testing}}
+	{Ranked 220 among 155250 participants in Iranian Nationwide Entrance Exam for Bachelor\textquotesingle{}s Studies}
+	{Tehran, Iran}
+	{Jul 2020}
+	{\begin{cvitems}
+	\end{cvitems}}
+	\cventry
+	{\textbf{Iran's National Olympiad in Informatics}}
+    {Being Among 80 Top Participants in 29th Iran's National Olympiad in Informatics}
+	{Tehran, Iran}
+	{Jul 2019}
+	{\begin{cvitems}
+	\end{cvitems}}
+\end{cventries}
+\end{document}
